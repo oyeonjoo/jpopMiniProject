@@ -1,0 +1,102 @@
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  background: linear-gradient(#0b185c, #03091f);
+}
+.container {
+  width: 1200px;
+  height: 590px;
+  margin: 0 auto;
+  background-image: url("./1.png");
+  background-repeat: none;
+  /* background-size: cover; */
+  background-attachment: fixed;
+}
+.header {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerContent {
+  text-align: center;
+}
+
+.coverTitle {
+  font-size: 10rem;
+  color: white;
+  height: 180px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Nanum Brush Script";
+}
+.coverTitle2 {
+  font-size: 2rem;
+  font-family: "Nanum Brush Script";
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cover-title {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.699);
+  width: 120px;
+  color: black;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.coverImage {
+  border-radius: 20px;
+  width: 230px;
+  height: 280px;
+  position: relative;
+  border: 5px solid white;
+  transition: all 0.2s ease-in-out;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.coverImage:hover {
+  bottom: 5px;
+}
+
+.cover1 {
+  background-image: url("https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/926/821b7575f994e7a9a7cff15c37f5ab42_res.jpeg");
+  margin-top: 20px;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover2 {
+  background-image: url("https://i.pinimg.com/564x/72/2a/ed/722aed1f0d889ff34afbbdbc9457217a.jpg");
+  margin-top: 20px;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover3 {
+  background-image: url("https://i.namu.wiki/i/z6gxtmNJgR7DpMF2AM64c8spJrwyvNuL9ND12FqEKA43rLKDEEvfMHvhZkXsei00WD_yiatx2U05DAE67Mj7VQ.webp");
+  margin-top: 20px;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}

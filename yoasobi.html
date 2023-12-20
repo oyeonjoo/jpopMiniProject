@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOASOBI</title>
+    <link rel="stylesheet" href="./yoasobi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Brush+Script&family=Noto+Sans+KR:wght@100&family=Rubik+Broken+Fax&family=Rubik+Scribble&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .btn:focus,
+      .btn:active {
+        outline: none !important;
+        box-shadow: none;
+      }
+      .btn {
+        outline: none !important;
+        box-shadow: none;
+      }
+
+      .header > .btn:hover {
+        background-color: black;
+        color: #f2285a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <button
+        type="button"
+        class="btn shadow-none"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal3"
+      >
+        온 세상이 YOASOBI다.
+      </button>
+    </div>
+    <div class="container-yoasobi">
+      <div class="backImg"></div>
+      <div class="main">
+        <div class="coverimg">
+          <div class="coverTitle">IDOL</div>
+          <button
+            type="button"
+            class="btn shadow-none"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal1"
+          >
+            <div class="cover1-image coverimg2"></div>
+          </button>
+        </div>
+        <div class="coverimg">
+          <div class="coverTitle">저 꿈을 덧그리며</div>
+          <button
+            type="button"
+            class="btn shadow-none"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal2"
+          >
+            <div class="cover2-image coverimg2"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <filter id="blur">
+        <feGaussianBlur stdDeviation="6" />
+      </filter>
+    </svg>
+
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <div class="p-2 modalTitle">YOASOBI</div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-4">
+            <div class="yoasobi-cover mb-4"></div>
+            <div class="modalContent">
+              일본의 인터넷 소설 사이트 monogatary.com에서 개최된 공모전
+              '모노콘2019'의 '소니 뮤직 상' 수상 작품을 음악으로 만드는 프로젝트
+              유닛으로서 2019년 10월 티저 영상을 공개하며 데뷔했다. 이후 같은 해
+              11월 16일 해당 공모전의 수상작 〈타나토스의
+              유혹(タナトスの誘惑)〉을 원작으로 한 데뷔곡 밤을
+              달리다(夜に駆ける)를 유튜브에 업로드하며 본격적인 활동을 개시했다.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <div class="p-2 modalTitle">아이돌 ( IDOL )</div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-4">
+            <div class="modalContent">
+              일본의 프로젝트 그룹 YOASOBI의 노래이자 【최애의 아이】 1기의
+              OP곡이다. ikura가 보컬, Ayase가 작곡, 작사를 맡았다. 뮤직비디오는
+              애니메이션 제작사 동화공방도 참여했다.
+              <div class="mt-3">
+                <iframe
+                  width="750"
+                  height="420"
+                  src="https://www.youtube.com/embed/ZRtdQ81jPUQ?si=1LxaYofNcmZF0IdB"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <div class="p-2 modalTitle">저 꿈을 덧그리며</div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-4">
+            <div class="modalContent">
+              요아소비의 두 번째 디지털 싱글로 2020년 1월 18일 발매되었으며,
+              2021년 1월 6일 발매된 첫 EP 〈THE BOOK〉에 수록되었다. 원작은
+              monogatary.com에서 개최된 모노콘 2019에서 밤을 달리다의 원작
+              〈타나토스의 유혹〉과 함께 당선된 〈꿈의 물방울과 별의 꽃〉(이시키
+              소타 작). 원작은 불꽃놀이 축제 날 서로에게 고백을 받는 예지몽을
+              꾸는 남학생과 여학생의 이야기를 다룬 청춘 로맨스로, 요아소비 곡
+              원작 중 최초로 코미컬라이즈되어 단권 만화로 출판되기도 했다.
+              <div class="mt-3">
+                <iframe
+                  width="750"
+                  height="420"
+                  src="https://www.youtube.com/embed/sAuEeM_6zpk?si=TwP0X8wrnStuAvNs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

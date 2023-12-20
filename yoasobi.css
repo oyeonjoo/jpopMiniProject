@@ -1,0 +1,148 @@
+*,
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Nanum Brush Script";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: url(https://i.namu.wiki/i/80F-cF87JkaE3XrQEgrSRAGx5rxz8l3OQH7XiILT4JcJtmh40S5y3dXT-pM72Mbad-FPCCgPCBBy5Gf6skAXRTe_B3qMcjusrvW0XxlKl-DKeL1tlqUjlKlip-yxLf18YA6w95nz7HaTbRovTiAc9w.webp)
+    center;
+  background-size: cover;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  -o-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: url(#blur);
+}
+
+.header > button {
+  color: white;
+  font-size: 55px;
+  position: absolute;
+  top: 13px;
+  left: 49%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 5px;
+  padding-right: 16px;
+  padding-left: 30px;
+  border-radius: 25px;
+}
+
+.yoasobi-cover {
+  background-image: url("https://i.namu.wiki/i/ZIiHM2G5VJxExg5k3XdKsyoJJtJAbAXbXHIILWS4st7cM-VB3RvHfWuAT8Rn7KzjYHegefbcrkYtWtO9HggMRFT1iSHrsxn9O9fYJOPx6X_nrhg6uQWWfnvURFtCkN4g3632jvqBi5k64bs14EyS-Q.webp");
+  background-size: cover;
+  background-repeat: none;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #f2285a;
+}
+
+.container-yoasobi {
+  background: url(https://i.namu.wiki/i/80F-cF87JkaE3XrQEgrSRAGx5rxz8l3OQH7XiILT4JcJtmh40S5y3dXT-pM72Mbad-FPCCgPCBBy5Gf6skAXRTe_B3qMcjusrvW0XxlKl-DKeL1tlqUjlKlip-yxLf18YA6w95nz7HaTbRovTiAc9w.webp)
+    center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px;
+  border: 5px solid #f2285a;
+}
+
+.main {
+  width: 1300px;
+  height: 650px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.coverTitle {
+  font-size: 37px;
+  margin-bottom: 25px;
+  background-color: rgba(37, 37, 37, 0.74);
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.coverimg {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.041);
+}
+
+.coverimg:nth-child(1) {
+  margin-left: 50px;
+}
+.coverimg:nth-child(2) {
+  margin-right: 50px;
+}
+
+.coverimg2 {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+  border: 5px solid white;
+  bottom: 0px;
+  border-radius: 25px;
+  box-shadow: 9px 11px 14px black;
+}
+
+.coverimg2:hover {
+  bottom: 7px;
+}
+
+.cover1-image {
+  background-image: url("https://i.namu.wiki/i/FwmRBZmqYWQhpwWdulXez893U_M-L-yZEXt-ynrny6PTEFVu07yJ_nmf9Mx5Zv6QB0DEUBsK9lDxxVMP-qylWN_qFFiffl_lpuooGTu0RoMrj5cyDIw2iTRzenj9NOyntqnYImfYg0LZEHtQS4JASA.webp");
+  background-size: cover;
+  background-repeat: none;
+}
+
+.cover2-image {
+  background-image: url("https://i.namu.wiki/i/gXiZPoZV4p88QR2cNBUFRAUypfSrtGs6fA1VwA0guUstrbP4yRi-atkzWWv9seAqQRfCXXnrz8Wilnnufrj0tU75DA0QCHQXYbj9Dw9j48ZvvHQQz68tr1FA9K1gBcfBgF25hXHqCqu07urWMMl6tg.webp");
+  background-size: cover;
+  background-repeat: none;
+}
+.modalTitle {
+  font-size: 40px;
+}
+
+.modalContent {
+  font-size: 25px;
+}
