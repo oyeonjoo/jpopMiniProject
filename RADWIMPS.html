@@ -12,24 +12,30 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
 
-        html{
-            height: 100%;
+        html,
+        body {
+        height: 100%;
         }
         
         body {
             background-image: url(https://i.pinimg.com/564x/ff/f1/3e/fff13ed543404bbe15b00d0d93b7b9f3.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         * {
             font-family: 'Sunflower', sans-serif;
-            text-align: left;
             color: wheat;
             text-shadow: 5px 5px 5px black;
-
+            margin : 0;
         }
 
-        .container {
+        .container1 {
             background-color: rgba(49, 36, 28, 0.95);
+            width: 1300px;
+            padding : 20px;
+            border-radius: 20px;
         }
 
         .col {
@@ -97,7 +103,7 @@
 </head>
 
 <body>
-    <div class="container text-center">
+    <div class="container1">
         <div class="row">
             <div class="col">
                 <img id="team_image"
@@ -112,7 +118,7 @@
                 </div>
                 </p>
                 <p>
-                <div class="d-flex flex-row mb-2">
+                <div class="d-flex flex-row mb-2 justify-center">
                     <div class="button_left">
                         <div class="masterpieces">
                             <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal"
