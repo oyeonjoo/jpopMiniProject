@@ -14,7 +14,5 @@
 1. html
 2. css, bootstrap ( ver. 5.3.2 )
 
-javascript는 들어가지 않았습니다.
-
 # 사이트 주소
 ## https://ramuneorch.github.io/jpopMiniProject/
